@@ -1,0 +1,7 @@
+public enum RateLimitAlgorithm {
+    FIXED_WINDOW,
+    TOKEN_BUCKET,
+    LEAKY_BUCKET,
+    SLIDING_WINDOW_LOG,
+    SLIDING_WINDOW_COUNTER
+}
